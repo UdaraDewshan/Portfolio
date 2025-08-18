@@ -26,16 +26,16 @@
     font-size: 1.3rem;
   }
 
-.hero {
+  .hero {
     min-height: 100vh;
-    background: linear-gradient(to bottom right, #042d6a, #040669);
+    background: linear-gradient(to bottom right, #001738, #0f0083);
     color: white;
     padding: 80px 20px;
   }
   .profile-container {
-    width: 200px;
-    height: 200px;
-    border: 5px solid #2406aa;
+    width: 250px;
+    height: 250px;
+    border: 5px solid #000000;
   }
   .profile-pic {
     width: 100%;

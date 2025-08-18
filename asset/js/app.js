@@ -5,3 +5,12 @@ function updateClock() {
 }
 setInterval(updateClock, 1000);
 updateClock();
+
+
+var typed = new Typed("#typed", {
+    strings: ["Software Engineer", "Web Developer", "Designer"],
+    typeSpeed: 90,      // typing speed
+    backSpeed: 70,      // backspacing speed
+    backDelay: 1000,    // pause before deleting
+    loop: true          // repeat forever
+  });
