@@ -25,3 +25,22 @@
   .navbar-brand {
     font-size: 1.3rem;
   }
+
+  .hero {
+      height: 100vh;
+      background: linear-gradient(to bottom right, #053987, #6610f2);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+
