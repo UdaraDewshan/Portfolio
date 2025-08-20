@@ -10,8 +10,8 @@ updateClock();
 
 var typed = new Typed("#typed", {
     strings: ["Software Engineer", "Web Developer", "Designer"],
-    typeSpeed: 90,      // typing speed
-    backSpeed: 70,      // backspacing speed
-    backDelay: 1000,    // pause before deleting
-    loop: true          // repeat forever
+    typeSpeed: 90,      
+    backSpeed: 70,      
+    backDelay: 1000,   
+    loop: true         
   });
