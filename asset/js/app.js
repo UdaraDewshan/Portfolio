@@ -1,3 +1,4 @@
+AOS.init();
 function updateClock() {
     const clock = document.getElementById("clock");
     const now = new Date();
