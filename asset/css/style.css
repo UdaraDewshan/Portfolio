@@ -58,43 +58,61 @@
   .project-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
+
   .project-item:hover {
     transform: translateY(-6px);
-    box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
   }
 
-.btn-gradient {
-  background: linear-gradient(45deg, #09107f, #0646b6);
-  color: #fff;
-  border: none;
-  font-size: 1.1rem;
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
-}
+  .btn-gradient {
+    background: linear-gradient(45deg, #09107f, #0646b6);
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
 
-.btn-gradient:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(238, 9, 121, 0.7), 0 0 20px rgba(255, 106, 0, 0.7);
-  background: linear-gradient(45deg, #ee0979, #ff6a00);
-}
+  .btn-gradient:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(238, 9, 121, 0.7), 0 0 20px rgba(255, 106, 0, 0.7);
+    background: linear-gradient(45deg, #ee0979, #ff6a00);
+  }
 
 
-.skill-card {
-  border: none;
-  border-radius: 15px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: #82828e;
-  color: #000000;
-}
-.skill-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
-}
-.skill-icon {
-  font-size: 2.5rem;
-}
-.progress {
-  height: 8px;
-  border-radius: 5px;
-  margin-top: 10px;
-}
+  .skill-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #82828e;
+    color: #000000;
+  }
+
+  .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  }
+
+  .skill-icon {
+    font-size: 2.5rem;
+  }
+
+  .progress {
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .btn-gradient {
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .btn-gradient:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(238, 9, 121, 0.7), 0 0 15px rgba(255, 106, 0, 0.7);
+    background: linear-gradient(45deg, #ee0979, #ff6a00);
+  }
