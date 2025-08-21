@@ -116,3 +116,34 @@
     box-shadow: 0 0 15px rgba(238, 9, 121, 0.7), 0 0 15px rgba(255, 106, 0, 0.7);
     background: linear-gradient(45deg, #ee0979, #ff6a00);
   }
+
+  .footer-gradient {
+    background: linear-gradient(135deg, #000000, #2c04ae);
+    color: #fff;
+  }
+
+  .footer-gradient a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .footer-gradient a:hover {
+    color: #ffc107;
+    transform: scale(1.2);
+  }
+
+  .footer-gradient hr {
+    opacity: 0.3;
+  }
+
+  html {
+    scroll-padding-top: 70px;
+  }
+
+  .navbar .nav-link.active {
+    color: #ffc107 !important;
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+  }
