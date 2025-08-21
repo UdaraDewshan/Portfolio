@@ -1,6 +1,6 @@
   .navbar {
     background: linear-gradient(90deg, #052f6e, #01156e);
-    padding: 15px 0;
+    padding: 10px 0;
   }
 
   .nav-link {
@@ -76,4 +76,25 @@
   transform: scale(1.1);
   box-shadow: 0 0 20px rgba(238, 9, 121, 0.7), 0 0 20px rgba(255, 106, 0, 0.7);
   background: linear-gradient(45deg, #ee0979, #ff6a00);
+}
+
+
+.skill-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #82828e;
+  color: #000000;
+}
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+.skill-icon {
+  font-size: 2.5rem;
+}
+.progress {
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
 }

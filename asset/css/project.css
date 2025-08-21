@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 40px;
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #040a3c, #004e92, #00c853, #290277);
+    background: linear-gradient(135deg, #040a3c, #004e92, #00c853, #9058ff);
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     color: white;
